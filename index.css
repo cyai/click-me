@@ -1,5 +1,14 @@
 body {
     background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #mainHeading {
@@ -71,11 +80,8 @@ footer {
     color: #fff;
     text-shadow: 2px 2px 15px yellow;
     text-align: center;
+    margin-top: 20px;
     padding: 10px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
     font-family: "Press Start 2P";
     font-size: 12px;
 }

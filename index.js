@@ -127,14 +127,13 @@ startButton.addEventListener("click", () => {
     }
 
     resetGame();
-    startGameTimer(gameTime);
+    // Move the startGameTimer call to handleClick function
 });
 
 // Event listener for the "Click-Me" button
 const clickMeButton = document.getElementById("clickMeButton");
 
-// Initialize the gameStarted variable
-let gameStarted = false;
+let gameStarted = false; // Variable to track if the game has started
 
 function handleClick() {
     if (!gameStarted) {
@@ -149,7 +148,7 @@ function handleClick() {
         }
 
         startGameTimer(gameTime);
-        gameStarted = true;
+        gameStarted = true; // Set gameStarted to true when timer starts counting down
     }
 
     changeBoxSize(); // Change the size of the box when clicked
