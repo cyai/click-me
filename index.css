@@ -21,7 +21,7 @@ body {
 
 .arena {
     width: 70%;
-    height: 400px;
+    height: 300px;
     border: 5px ridge #111111;
     margin-left: auto;
     margin-right: auto;
@@ -93,4 +93,33 @@ footer {
 
 .social-links a:hover {
     color: #00ff73;
+}
+
+/* Additional styles for time input and start button */
+.time-input {
+    text-align: center;
+    font-family: "Press Start 2P";
+    margin-top: 20px;
+}
+
+#gameTime {
+    font-family: "Press Start 2P";
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+#startButton,
+#clickMeButton {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #00ff73;
+    color: #111;
+    font-family: "Press Start 2P";
+    cursor: pointer;
+}
+
+#startButton:hover,
+#clickMeButton:hover {
+    background-color: white;
 }

@@ -16,9 +16,10 @@
         <h1 id="mainHeading">Welcome to Click-Me Game!</h1>
 
         <p id="introP">
-            This is a game. Click on the "Click-Me" box from the arena as fast
-            as you can till the time runs out!
+            Catch and click the "Click-Me" box from the arena as fast as you can
+            till the time runs out!
         </p>
+        <p id="introP">Share your high-scores in socials and tag me!</p>
 
         <div class="arena">
             <button id="clickMeButton">Click-Me</button>
@@ -28,6 +29,18 @@
             <p id="countdownDisplay">Time left: 60 seconds</p>
             <p id="scoreDisplay">Score: 0</p>
             <button id="retryButton" style="display: none">Retry</button>
+        </div>
+        <div class="time-input">
+            <label for="gameTime">Enter Game Time (seconds):</label>
+            <input
+                type="number"
+                id="gameTime"
+                min="10"
+                max="300"
+                step="10"
+                value="60"
+            />
+            <button id="startButton">Start</button>
         </div>
 
         <footer>
