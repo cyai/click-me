@@ -80,8 +80,11 @@ footer {
     color: #fff;
     text-shadow: 2px 2px 15px yellow;
     text-align: center;
-    margin-top: 20px;
     padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     font-family: "Press Start 2P";
     font-size: 12px;
 }
