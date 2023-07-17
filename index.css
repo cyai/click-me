@@ -1,0 +1,96 @@
+body {
+    background-color: grey;
+}
+
+#mainHeading {
+    color: #111111;
+    font-family: "Press Start 2P";
+    font-style: italic;
+    text-shadow: 2px 2px 4px #d4f553;
+    text-align: center;
+}
+
+#introP {
+    color: #00ff73;
+    font-family: "Press Start 2P";
+    font-size: small;
+    padding: 5px;
+    text-shadow: 2px 2px 10px #1b1c17;
+    text-align: center;
+}
+
+.arena {
+    width: 70%;
+    height: 400px;
+    border: 5px ridge #111111;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+#clickMeButton {
+    font-size: 18px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.game-info {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#countdownDisplay,
+#scoreDisplay {
+    font-family: "Press Start 2P";
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    margin: 10px;
+}
+
+#retryButton {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #00ff73;
+    color: #111;
+    font-family: "Press Start 2P";
+    cursor: pointer;
+}
+
+#retryButton:hover {
+    background-color: #1affa3;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-shadow: 2px 2px 15px yellow;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    font-family: "Press Start 2P";
+    font-size: 12px;
+}
+
+/* Styles for the social links */
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    color: #00ff73;
+}
