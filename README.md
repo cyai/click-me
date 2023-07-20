@@ -2,6 +2,8 @@
 
 Welcome to the Click-Me game! This is a simple static website game where you have to click on the "Click-Me" box as fast as you can within a specified time limit. The box will randomly move around inside the arena, and your goal is to click on it as many times as possible before the time runs out.
 
+You can also read out the documentation blog for this prject here: https://medium.com/@vardhaman.kalloli/click-me-game-project-documentation-f52998e21279
+
 ## How to Play
 
 1. Access the game by visiting the [Click-Me Game](https://cyai.github.io/click-me/) link.
